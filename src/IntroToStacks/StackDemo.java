@@ -22,7 +22,7 @@ public class StackDemo {
 		//Clearing the stack
 		int sz = flavors.size();
 		System.out.println("\nPopping all the strings off the Stack:");
-		for(int i = 0; i < sz; i++){
+		for (int i = 0; i < sz; i++) {
 			System.out.println(flavors.pop());
 		}
 	}
